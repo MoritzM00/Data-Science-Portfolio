@@ -1,0 +1,14 @@
+{
+  "_output_dir": "/Users/moritzmistol/Programming",
+  "_template": "gh:cjolowicz/cookiecutter-hypermodern-python",
+  "author": "Moritz Mistol",
+  "copyright_year": "2022",
+  "development_status": "Development Status :: 1 - Planning",
+  "email": "moritz.mistol@gmail.com",
+  "friendly_name": "Data Science Portfolio",
+  "github_user": "MoritzM00",
+  "license": "MIT",
+  "package_name": "data_science_portfolio",
+  "project_name": "data-science-portfolio",
+  "version": "0.0.0"
+}

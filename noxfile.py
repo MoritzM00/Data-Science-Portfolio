@@ -46,7 +46,7 @@ def activate_virtualenv_in_precommit_hooks(session: Session) -> None:
     Args:
         session: The Session object.
     """
-    assert session.bin is not None  # noqa: S101
+    assert session.bin is not None  # nosec
 
     # Only patch hooks containing a reference to this session's bindir. Support
     # quoting rules for Python and bash, but strip the outermost quotes so we
@@ -123,7 +123,6 @@ def precommit(session: Session) -> None:
         "black",
         "darglint",
         "flake8",
-        "flake8-bandit",
         "flake8-bugbear",
         "flake8-docstrings",
         "flake8-rst-docstrings",

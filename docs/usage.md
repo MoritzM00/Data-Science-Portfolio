@@ -1,7 +1,7 @@
 # Usage
 
 ```{eval-rst}
-.. click:: data_science_portfolio.__main__:main
-    :prog: data-science-portfolio
+.. click:: dspf.__main__:main
+    :prog: dspf
     :nested: full
 ```

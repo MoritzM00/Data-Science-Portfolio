@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "data-science-portfolio"
+name = "dspf"
 version = "0.0.1-alpha.1"
 description = "Data Science Portfolio"
 authors = ["Moritz Mistol <moritz.mistol@gmail.com>"]
@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/MoritzM00/data-science-portfolio"
 repository = "https://github.com/MoritzM00/data-science-portfolio"
-documentation = "https://data-science-portfolio.readthedocs.io"
+documentation = "https://dspf.readthedocs.io"
 classifiers = [
     "Development Status :: 1 - Planning",
 ]
@@ -62,7 +62,7 @@ tests = ["tests", "*/tests"]
 
 [tool.coverage.run]
 branch = true
-source = ["data_science_portfolio", "tests"]
+source = ["dspf", "tests"]
 
 [tool.coverage.report]
 show_missing = true

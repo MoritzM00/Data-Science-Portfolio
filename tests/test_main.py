@@ -2,7 +2,7 @@
 import pytest
 from click.testing import CliRunner
 
-from data_science_portfolio import __main__
+from dspf import __main__
 
 
 @pytest.fixture

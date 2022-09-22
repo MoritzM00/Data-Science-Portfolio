@@ -1035,7 +1035,7 @@ webpdf = ["pyppeteer (>=1,<1.1)"]
 
 [[package]]
 name = "nbformat"
-version = "5.5.0"
+version = "5.6.0"
 description = "The Jupyter Notebook format"
 category = "dev"
 optional = false
@@ -1044,7 +1044,7 @@ python-versions = ">=3.7"
 [package.dependencies]
 fastjsonschema = "*"
 jsonschema = ">=2.6"
-jupyter_core = "*"
+jupyter-core = "*"
 traitlets = ">=5.1"
 
 [package.extras]
@@ -2864,8 +2864,8 @@ nbconvert = [
     {file = "nbconvert-7.0.0.tar.gz", hash = "sha256:fd1e361da30e30e4c5a5ae89f7cae95ca2a4d4407389672473312249a7ba0060"},
 ]
 nbformat = [
-    {file = "nbformat-5.5.0-py3-none-any.whl", hash = "sha256:eb21018bbcdb29e7a4b8b29068d4b6794cdad685db8fcd569b97a09a048dc2e4"},
-    {file = "nbformat-5.5.0.tar.gz", hash = "sha256:9ebe30e6c3b3e5b47d39ff0a3897a1acf523d2bfafcb4e2d04cdb70f8a66c507"},
+    {file = "nbformat-5.6.0-py3-none-any.whl", hash = "sha256:349db50afcf5f44cac6ddcf747fcb9330eafb751044c83994066c48e2f140b35"},
+    {file = "nbformat-5.6.0.tar.gz", hash = "sha256:6f9edb3b70119d82ba89b74b0ecfdbb83f35af8661e491e49ac0893657042674"},
 ]
 nest-asyncio = [
     {file = "nest_asyncio-1.5.5-py3-none-any.whl", hash = "sha256:b98e3ec1b246135e4642eceffa5a6c23a3ab12c82ff816a92c612d68205813b2"},

@@ -1,3 +1,31 @@
 {
-  "python.formatting.provider": "black"
+  "python.formatting.provider": "black",
+  "cSpell.words": [
+    "autobuild",
+    "bindir",
+    "bindirs",
+    "darglint",
+    "docstrings",
+    "dspf",
+    "furo",
+    "hookdir",
+    "isort",
+    "matplotlib",
+    "Mistol",
+    "modname",
+    "Moritz",
+    "mypy",
+    "noxfile",
+    "numpy",
+    "posargs",
+    "precommit",
+    "Pygments",
+    "pytest",
+    "pyupgrade",
+    "scikit",
+    "scipy",
+    "seaborn",
+    "typeguard",
+    "xdoctest"
+  ]
 }

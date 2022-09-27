@@ -1,33 +1,5 @@
 {
   "python.formatting.provider": "black",
-  "cSpell.words": [
-    "autobuild",
-    "bindir",
-    "bindirs",
-    "darglint",
-    "docstrings",
-    "dspf",
-    "furo",
-    "hookdir",
-    "isort",
-    "matplotlib",
-    "Mistol",
-    "modname",
-    "Moritz",
-    "mypy",
-    "noxfile",
-    "numpy",
-    "posargs",
-    "precommit",
-    "Pygments",
-    "pytest",
-    "pyupgrade",
-    "scikit",
-    "scipy",
-    "seaborn",
-    "typeguard",
-    "xdoctest"
-  ],
   // dont show spell check errors in problems pane
   "cSpell.diagnosticLevel": "Hint",
   "workbench.colorCustomizations": {

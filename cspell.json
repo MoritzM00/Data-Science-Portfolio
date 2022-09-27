@@ -1,0 +1,42 @@
+{
+  "languageSettings": [
+    {
+      "languageId": "python",
+      "dictionaries": ["python"]
+    }
+  ],
+  "words": [
+    "autobuild",
+    "bindir",
+    "bindirs",
+    "communalities",
+    "darglint",
+    "docstrings",
+    "dspf",
+    "figsize",
+    "furo",
+    "hookdir",
+    "isort",
+    "linalg",
+    "matplotlib",
+    "Mistol",
+    "modname",
+    "Moritz",
+    "mypy",
+    "ndarray",
+    "noxfile",
+    "numpy",
+    "posargs",
+    "precommit",
+    "Pygments",
+    "pyplot",
+    "pytest",
+    "pyupgrade",
+    "scikit",
+    "scipy",
+    "seaborn",
+    "sklearn",
+    "typeguard",
+    "xdoctest"
+  ]
+}

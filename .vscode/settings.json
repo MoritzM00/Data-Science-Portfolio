@@ -27,5 +27,12 @@
     "seaborn",
     "typeguard",
     "xdoctest"
-  ]
+  ],
+  // dont show spell check errors in problems pane
+  "cSpell.diagnosticLevel": "Hint",
+  "workbench.colorCustomizations": {
+    // but make them more visible
+    "editorHint.border": "#ff7700",
+    "editorHint.foreground": "#f000"
+  }
 }

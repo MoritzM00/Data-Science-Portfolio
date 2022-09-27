@@ -54,7 +54,7 @@ jupyter = ">=1.0.0"
 bandit = ">=1.7.4"
 
 [tool.poetry.scripts]
-data-science-portfolio = "data_science_portfolio.__main__:main"
+dspf = "dspf.__main__:main"
 
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]

@@ -5,7 +5,7 @@ import click
 @click.command()
 @click.version_option()
 def main() -> None:
-    """Data Science Portfolio."""
+    """Start the Data Science Portfolio CLI."""
 
 
 if __name__ == "__main__":

@@ -5,7 +5,7 @@
 [![Python Version](https://img.shields.io/pypi/pyversions/dspf)][python version]
 [![License](https://img.shields.io/pypi/l/dspf)][license]
 
-[![Read the documentation at https://dspf.readthedocs.io/](https://img.shields.io/readthedocs/dspf/latest.svg?label=Read%20the%20Docs)][read the docs]
+[![Read the documentation at https://data-science-portfolio.readthedocs.io/](https://img.shields.io/readthedocs/data-science-portfolio/latest.svg?label=Read%20the%20Docs)][read the docs]
 [![Tests](https://github.com/MoritzM00/data-science-portfolio/workflows/Tests/badge.svg)][tests]
 [![Codecov](https://codecov.io/gh/MoritzM00/data-science-portfolio/branch/main/graph/badge.svg)][codecov]
 
@@ -15,7 +15,7 @@
 [pypi_]: https://pypi.org/project/dspf/
 [status]: https://pypi.org/project/dspf/
 [python version]: https://pypi.org/project/dspf
-[read the docs]: https://dspf.readthedocs.io/
+[read the docs]: https://data-science-portfolio.readthedocs.io/
 [tests]: https://github.com/MoritzM00/data-science-portfolio/actions?workflow=Tests
 [codecov]: https://app.codecov.io/gh/MoritzM00/data-science-portfolio
 [pre-commit]: https://github.com/pre-commit/pre-commit

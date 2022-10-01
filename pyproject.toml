@@ -62,8 +62,8 @@ tests = ["tests", "*/tests"]
 
 [tool.coverage.run]
 branch = true
-source = ["dspf"]
-omit = ["*/*plot*.py"]
+source = ["dspf", "tests"]
+omit = ["*/*plot*.py", "**/tests/*"]
 
 [tool.coverage.report]
 show_missing = true
@@ -71,7 +71,8 @@ fail_under = 50
 exclude_lines = [
     "pragma: no cover",
     "raise NotImplementedError",
-    "if __name__ == .__main__.:"
+    "if __name__ == .__main__.:",
+    "with pytest.raises(.*):"
 ]
 
 [tool.isort]

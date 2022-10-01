@@ -14,4 +14,3 @@ github_checks:
   annotations: true
 ignore:
   - "noxfile.py"
-  - "tests/*"

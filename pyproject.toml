@@ -63,6 +63,7 @@ tests = ["tests", "*/tests"]
 [tool.coverage.run]
 branch = true
 source = ["dspf", "tests"]
+omit = ["*/*plot*.py"]
 
 [tool.coverage.report]
 show_missing = true

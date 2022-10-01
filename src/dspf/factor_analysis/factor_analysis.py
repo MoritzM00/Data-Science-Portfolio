@@ -314,7 +314,9 @@ class FactorAnalysis(BaseEstimator, TransformerMixin):
             reproduced_corr += np.diag(self.specific_variances_)
         return reproduced_corr
 
-    def print_summary(self, file=None, force_full_print=True, precision=4):
+    def print_summary(
+        self, file=None, force_full_print=True, precision=4
+    ):  # pragma: no cover
         """
         Print a summary of the estimated parameters of the factor analysis model.
 

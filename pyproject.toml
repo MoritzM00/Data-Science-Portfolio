@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dspf"
-version = "0.0.1-alpha.2"
+version = "0.0.1-alpha.3"
 description = "Data Science Portfolio"
 authors = ["Moritz Mistol <moritz.mistol@gmail.com>"]
 license = "MIT"

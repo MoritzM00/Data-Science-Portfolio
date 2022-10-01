@@ -10,8 +10,8 @@ coverage:
       default:
         target: auto
         threshold: 1%
-  github_checks:
-    annotations: true
-  ignore:
-    - "noxfile.py"
-    - "tests/*"
+github_checks:
+  annotations: true
+ignore:
+  - "noxfile.py"
+  - "tests/*"

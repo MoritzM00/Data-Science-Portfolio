@@ -118,7 +118,6 @@ def precommit(session: Session) -> None:
         "run",
         "--all-files",
         "--hook-stage=manual",
-        "--show-diff-on-failure",
     ]
     session.install(
         "black",
@@ -132,6 +131,7 @@ def precommit(session: Session) -> None:
         "pre-commit-hooks",
         "pyupgrade",
         "bandit",
+        "nbstripout",
     )
     session.run("pre-commit", *args)
     if args and args[0] == "install":

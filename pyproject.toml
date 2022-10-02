@@ -52,6 +52,7 @@ xdoctest = {extras = ["colors"], version = ">=0.15.10"}
 myst-parser = {version = ">=0.16.1"}
 jupyter = ">=1.0.0"
 bandit = ">=1.7.4"
+nbstripout = "^0.6.1"
 
 [tool.poetry.scripts]
 dspf = "dspf.__main__:main"

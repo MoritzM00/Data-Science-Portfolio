@@ -12,5 +12,3 @@ coverage:
         threshold: 1%
 github_checks:
   annotations: true
-ignore:
-  - "noxfile.py"

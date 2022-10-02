@@ -1,6 +1,6 @@
 # Reference
 
-## data_science_portfolio
+## Data Science Portfolio
 
 ```{eval-rst}
 .. automodule:: dspf

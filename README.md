@@ -34,7 +34,7 @@
 You can install _Data Science Portfolio_ via [pip] from [PyPI]:
 
 ```console
-$ pip install dspf
+pip install dspf
 ```
 
 ## Usage

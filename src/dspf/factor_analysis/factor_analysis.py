@@ -1,8 +1,4 @@
-"""
-Exploratory Factor Analysis.
-
-Docstring style: NumPy
-"""
+"""Exploratory Factor Analysis."""
 
 import warnings
 
@@ -317,21 +313,19 @@ class FactorAnalysis(BaseEstimator, TransformerMixin):
     def print_summary(
         self, file=None, force_full_print=True, precision=4
     ):  # pragma: no cover
-        """
-        Print a summary of the estimated parameters of the factor analysis model.
+        """Print a summary of the estimated parameters of the factor analysis model.
 
-        Those include
-         - loadings
-         - communalities
-         - specific variances
-         - Root mean squared error of residuals
+        Those include::
+            loadings
+            communalities
+            specific variances
+            Root mean squared error of residuals
 
-         If the fitting method was principal components (PC) then the
-         following is reported as well:
-
-         - eigenvalues of the factors
-         - % of variance explained by each factor
-         - cumulative % explained
+        If the fitting method was principal components (PC) then the
+        following is reported as well::
+            eigenvalues of the factors
+            percentage of variance explained by each factor
+            cumulative percentage explained
 
         Parameters
         ----------
@@ -339,13 +333,12 @@ class FactorAnalysis(BaseEstimator, TransformerMixin):
             Optional. If specified, then the output is written to the
             given file. The user has to take care of opening and closing
             the file. Surround the 'print_summary(..., file=f)' statement with a
-            `with open(file, 'a') as f:`
-             and then pass f as argument to this method.
+            `with open(file, 'a') as f:` and then pass f as argument to this method.
         force_full_print : bool, default=True
             If True, then it prints the dataframes with no column or row
             width limitations. Otherwise, it will print dots if the width
             of the dataframe is too big.
-        precision : int, default=4
+        precision : int, optional
             Can be used to specify the precision for printing floats.
         """
         check_is_fitted(self)

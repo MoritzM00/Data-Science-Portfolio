@@ -10,3 +10,5 @@ extensions = [
 ]
 autodoc_typehints = "description"
 html_theme = "furo"
+
+napoleon_google_docstring = False

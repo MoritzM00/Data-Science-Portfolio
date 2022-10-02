@@ -41,11 +41,6 @@ $ pip install dspf
 
 Please see the [Command-line Reference] for details.
 
-## Contributing
-
-Contributions are very welcome.
-To learn more, see the [Contributor Guide].
-
 ## License
 
 Distributed under the terms of the [MIT license][license],
@@ -69,5 +64,4 @@ This project was generated from [@cjolowicz]'s [Hypermodern Python Cookiecutter]
 <!-- github-only -->
 
 [license]: https://github.com/MoritzM00/data-science-portfolio/blob/main/LICENSE
-[contributor guide]: https://github.com/MoritzM00/data-science-portfolio/blob/main/CONTRIBUTING.md
 [command-line reference]: https://dspf.readthedocs.io/en/latest/usage.html

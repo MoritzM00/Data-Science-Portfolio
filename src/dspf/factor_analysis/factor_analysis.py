@@ -315,17 +315,17 @@ class FactorAnalysis(BaseEstimator, TransformerMixin):
     ):  # pragma: no cover
         """Print a summary of the estimated parameters of the factor analysis model.
 
-        Those include::
-            loadings
-            communalities
-            specific variances
-            Root mean squared error of residuals
+        Those include
+        * loadings
+        * communalities
+        * specific variances
+        * Root mean squared error of residuals
 
-        If the fitting method was principal components (PC) then the
-        following is reported as well::
-            eigenvalues of the factors
-            percentage of variance explained by each factor
-            cumulative percentage explained
+        If the fitting method was principal components (PC)
+        then the following is reported as well:
+        * eigenvalues of the factors
+        * percentage of variance explained by each factor
+        * cumulative percentage explained
 
         Parameters
         ----------

@@ -7,9 +7,16 @@
    :members:
 ```
 
-### Factor Analysis
+### Utils
 
 ```{eval-rst}
-.. automodule:: dspf.factor_analysis
+.. automodule:: dspf.utils
+   :members:
+```
+
+### Visualization
+
+```{eval-rst}
+.. automodule:: dspf.visualization
    :members:
 ```

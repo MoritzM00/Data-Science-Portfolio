@@ -85,7 +85,7 @@ def create_loadings_heatmaps(
         vmax = np.abs(loadings).max()
         im = ax.imshow(loadings, cmap="RdBu_r", vmax=vmax, vmin=-vmax)
         if annotate:
-            annotate_heatmap(im, valfmt="{x:.2f}", threshold=0.2)
+            _annotate_heatmap(im, valfmt="{x:.2f}", threshold=0.2)
         ax.set_yticks(np.arange(len(feature_names)))
         if ax.get_subplotspec().is_first_col():
             ax.set_yticklabels(feature_names)
@@ -139,7 +139,7 @@ def create_corr_heatmap(X, triangular=False, is_corr_mtx=False, annotate=True):
     return hm
 
 
-def annotate_heatmap(
+def _annotate_heatmap(
     im,
     data=None,
     valfmt="{x:.2f}",

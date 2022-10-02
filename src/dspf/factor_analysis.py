@@ -14,8 +14,8 @@ from sklearn.exceptions import ConvergenceWarning
 from sklearn.utils.validation import check_array
 from sklearn.utils.validation import check_is_fitted
 
-from dspf.factor_analysis.utils import smc
-from dspf.factor_analysis.utils import standardize
+from dspf.utils import smc
+from dspf.utils import standardize
 
 
 class FactorAnalysis(BaseEstimator, TransformerMixin):

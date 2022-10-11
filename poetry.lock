@@ -1443,7 +1443,7 @@ python-versions = "*"
 
 [[package]]
 name = "pyupgrade"
-version = "3.0.0"
+version = "3.1.0"
 description = "A tool to automatically upgrade syntax for newer versions."
 category = "dev"
 optional = false
@@ -3103,8 +3103,8 @@ pytz = [
     {file = "pytz-2022.4.tar.gz", hash = "sha256:48ce799d83b6f8aab2020e369b627446696619e79645419610b9facd909b3174"},
 ]
 pyupgrade = [
-    {file = "pyupgrade-3.0.0-py2.py3-none-any.whl", hash = "sha256:f9ba6cb58713e7249f4f0486e425969618e953062a5fc805da9d21602a2d1441"},
-    {file = "pyupgrade-3.0.0.tar.gz", hash = "sha256:6ec1e2762d887cab94a5714b2ea7e944843d8c2de36c449d443e52ffac8ab14f"},
+    {file = "pyupgrade-3.1.0-py2.py3-none-any.whl", hash = "sha256:77c6101a710be3e24804891e43388cedbee617258e93b09c8c5e58de08617758"},
+    {file = "pyupgrade-3.1.0.tar.gz", hash = "sha256:7a8d393d85e15e0e2753e90b7b2e173b9d29dfd71e61f93d93e985b242627ed3"},
 ]
 pywin32 = [
     {file = "pywin32-304-cp310-cp310-win32.whl", hash = "sha256:3c7bacf5e24298c86314f03fa20e16558a4e4138fc34615d7de4070c23e65af3"},

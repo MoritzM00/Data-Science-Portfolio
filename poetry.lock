@@ -1017,7 +1017,7 @@ testing = ["beautifulsoup4", "coverage[toml]", "pytest (>=6,<7)", "pytest-cov", 
 
 [[package]]
 name = "nbclassic"
-version = "0.4.5"
+version = "0.4.7"
 description = "A web-based notebook environment for interactive computing"
 category = "dev"
 optional = false
@@ -1149,7 +1149,7 @@ setuptools = "*"
 
 [[package]]
 name = "notebook"
-version = "6.5.1"
+version = "6.5.2"
 description = "A web-based notebook environment for interactive computing"
 category = "dev"
 optional = false
@@ -1162,7 +1162,7 @@ ipython-genutils = "*"
 jinja2 = "*"
 jupyter-client = ">=5.3.4"
 jupyter-core = ">=4.6.1"
-nbclassic = "0.4.5"
+nbclassic = ">=0.4.7"
 nbconvert = ">=5"
 nbformat = "*"
 nest-asyncio = ">=1.5"
@@ -1221,8 +1221,8 @@ python-versions = ">=3.8"
 
 [package.dependencies]
 numpy = [
-    {version = ">=1.21.0", markers = "python_version >= \"3.10\""},
     {version = ">=1.20.3", markers = "python_version < \"3.10\""},
+    {version = ">=1.21.0", markers = "python_version >= \"3.10\""},
 ]
 python-dateutil = ">=2.8.1"
 pytz = ">=2020.1"
@@ -2915,8 +2915,8 @@ myst-parser = [
     {file = "myst_parser-0.18.1-py3-none-any.whl", hash = "sha256:61b275b85d9f58aa327f370913ae1bec26ebad372cc99f3ab85c8ec3ee8d9fb8"},
 ]
 nbclassic = [
-    {file = "nbclassic-0.4.5-py3-none-any.whl", hash = "sha256:07fba5a9e52a6ed7e795b45d300629b2a07a69e5a47398833b7977a7ecc8a3c1"},
-    {file = "nbclassic-0.4.5.tar.gz", hash = "sha256:05704c6cdd8301bf52e40ed9fae39e80d6bc5d2d447dc67831c145b4dd928779"},
+    {file = "nbclassic-0.4.7-py3-none-any.whl", hash = "sha256:d71d18aa6605eaf59e9b99b34c96360af45847f2a30ee2fefbe2f7bed4bc3df2"},
+    {file = "nbclassic-0.4.7.tar.gz", hash = "sha256:1e0470583b55089c427940ed31b8a866ffef7ccab101494e409efe5ac7ba9897"},
 ]
 nbclient = [
     {file = "nbclient-0.7.0-py3-none-any.whl", hash = "sha256:434c91385cf3e53084185334d675a0d33c615108b391e260915d1aa8e86661b8"},
@@ -2943,8 +2943,8 @@ nodeenv = [
     {file = "nodeenv-1.7.0.tar.gz", hash = "sha256:e0e7f7dfb85fc5394c6fe1e8fa98131a2473e04311a45afb6508f7cf1836fa2b"},
 ]
 notebook = [
-    {file = "notebook-6.5.1-py3-none-any.whl", hash = "sha256:660849b12a1e03f98bfc84ec73422f09a4fdd1af6679c1935b1baf426b864fca"},
-    {file = "notebook-6.5.1.tar.gz", hash = "sha256:f69fd3b13df092af3a66c8797fa8ce00608db71cade89105ac4178b8d8d154aa"},
+    {file = "notebook-6.5.2-py3-none-any.whl", hash = "sha256:e04f9018ceb86e4fa841e92ea8fb214f8d23c1cedfde530cc96f92446924f0e4"},
+    {file = "notebook-6.5.2.tar.gz", hash = "sha256:c1897e5317e225fc78b45549a6ab4b668e4c996fd03a04e938fe5e7af2bfffd0"},
 ]
 notebook-shim = [
     {file = "notebook_shim-0.2.0-py3-none-any.whl", hash = "sha256:481711abddfb2e5305b83cf0efe18475824eb47d1ba9f87f66a8c574b8b5c9e4"},
